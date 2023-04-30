@@ -1,10 +1,10 @@
 import { Router } from "express";
-import tests from "./tests";
+import coupons from "./coupons";
 const router = Router();
 const routes = [
   {
-    path: "tests",
-    router: tests,
+    path: "coupons",
+    router: coupons,
   },
 ];
 
