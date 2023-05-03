@@ -1,5 +1,6 @@
 # Coupons - Data Visualization and Analysis
-Analyze and show relevant data using Nodejs and Express 
+
+Analyze and show relevant data using Nodejs and Express
 
 ## Installation
 
@@ -13,9 +14,14 @@ Instructions on how to install and set up your project:
 
 Instructions on how to use your Express API:
 
-1. Run `npm run dev` for development or `npm start` to start the server.
+1. Run `npm run dev` for development with `nodemon`
+2. `npm run build` for transpile all files with babel into `/dist` then `npm run prod` for production.
 2. Visit `http://localhost:3000/api` in your browser or API testing tool of choice.
 3. Use the API endpoints to interact with the application for example `http://localhost:3000/api/coupons`.
+
+## Web
+
+- Access to `http://localhost:3000` to see example usage of `http://localhost:3000/api/coupons`
 
 ## Technologies
 
@@ -23,6 +29,7 @@ List of technologies used in the project:
 
 - Express
 - Babel
+
 ## Setup for Windows
 
 Instructions on how to set up the project specifically for Windows:
