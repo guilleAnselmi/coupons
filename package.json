@@ -1,5 +1,5 @@
 {
-  "name": "admin-backend",
+  "name": "coupons",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
